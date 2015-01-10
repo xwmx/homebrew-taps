@@ -2,7 +2,7 @@ require 'formula'
 
 class Dots < Formula
   homepage "https://github.com/alphabetum/dots"
-  url "https://github.com/alphabetum/dots.git", :using => :git, :tag => "2.0.2"
+  url "https://github.com/alphabetum/dots.git", :using => :git, :tag => "2.0.3"
 
   head "https://github.com/alphabetum/dots.git"
 
