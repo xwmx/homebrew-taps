@@ -2,7 +2,7 @@ require "formula"
 
 class Hosts < Formula
   homepage "https://github.com/alphabetum/hosts"
-  url "https://github.com/alphabetum/hosts.git", :using => :git, :tag => "1.0.0"
+  url "https://github.com/alphabetum/hosts.git", :using => :git, :tag => "1.1.0"
 
   head "https://github.com/alphabetum/hosts.git"
 
