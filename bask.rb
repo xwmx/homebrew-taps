@@ -14,5 +14,3 @@ class Bask < Formula
     system "#{bin}/bask"
   end
 end
-
-

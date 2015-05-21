@@ -12,6 +12,3 @@ class Swiftly < Formula
     system "#{bin}/swiftly"
   end
 end
-
-
-

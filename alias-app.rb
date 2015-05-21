@@ -12,5 +12,3 @@ class AliasApp < Formula
     system "#{bin}/alias-app"
   end
 end
-
-

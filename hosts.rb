@@ -14,5 +14,3 @@ class Hosts < Formula
     system "#{bin}/hosts"
   end
 end
-
-

@@ -14,6 +14,3 @@ class SearchSh < Formula
     system "#{bin}/search"
   end
 end
-
-
-

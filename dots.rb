@@ -14,4 +14,3 @@ class Dots < Formula
     system "#{bin}/dots"
   end
 end
-

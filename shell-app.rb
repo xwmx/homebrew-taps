@@ -12,6 +12,3 @@ class ShellApp < Formula
     system "#{bin}/shell-app"
   end
 end
-
-
-
