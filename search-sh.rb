@@ -7,7 +7,8 @@ class SearchSh < Formula
   head "https://github.com/alphabetum/search.sh.git"
 
   def install
-    system "make", "install"
+    bin.mkpath
+    system "make", "install", "PREFIX=#{prefix}"
   end
 
   test do
