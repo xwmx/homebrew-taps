@@ -8,4 +8,3 @@ cask :v1 => "fragmentarium" do
 
   app "Fragmentarium.app"
 end
-

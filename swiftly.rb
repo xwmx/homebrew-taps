@@ -1,11 +1,11 @@
-require 'formula'
+require "formula"
 
 class Swiftly < Formula
   homepage "https://github.com/alphabetum/swiftly"
   head "https://github.com/alphabetum/swiftly.git"
 
   def install
-    bin.install 'swiftly'
+    bin.install "swiftly"
   end
 
   test do
