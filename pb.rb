@@ -4,7 +4,7 @@ class Pb < Formula
   homepage "https://github.com/alphabetum/pb"
   url "https://github.com/alphabetum/pb.git",
     :using => :git,
-    :tag => "1.0.1"
+    :tag => "1.0.2"
 
   head "https://github.com/alphabetum/pb.git"
 
