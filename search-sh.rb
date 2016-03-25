@@ -4,7 +4,7 @@ class SearchSh < Formula
   homepage "https://github.com/alphabetum/search.sh"
   url "https://github.com/alphabetum/search.sh",
     :using => :git,
-    :tag => "0.1.2"
+    :tag => "0.1.3"
 
   head "https://github.com/alphabetum/search.sh.git"
 
