@@ -4,7 +4,7 @@ class Notes < Formula
   homepage "https://github.com/alphabetum/notes"
   url "https://github.com/alphabetum/notes.git",
     :using => :git,
-    :tag => "1.0.4"
+    :tag => "1.0.5"
 
   head "https://github.com/alphabetum/notes.git"
 
