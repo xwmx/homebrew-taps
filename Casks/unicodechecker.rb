@@ -4,7 +4,6 @@ cask "unicodechecker" do
 
   url "http://earthlingsoft.net/UnicodeChecker/UnicodeChecker.zip"
   homepage "http://earthlingsoft.net/UnicodeChecker/"
-  license :gratis
 
   app "UnicodeChecker 1.16.1/UnicodeChecker.app"
 end

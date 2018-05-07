@@ -7,7 +7,6 @@ cask 'iterm2-nightly-pinned' do
   name 'iTerm2'
   name 'iTerm 2'
   homepage 'https://www.iterm2.com/'
-  license :gpl
 
   app 'iTerm.app'
 

@@ -5,7 +5,6 @@ cask "origami" do
   url "https://origami.facebook.com/download/Origami-#{version}.zip"
   homepage "http://facebook.github.io/origami/download/"
   name "Origami"
-  license :unknown
 
   pkg "Origami 2.0.pkg"
 end

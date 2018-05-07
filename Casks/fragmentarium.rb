@@ -5,7 +5,6 @@ cask "fragmentarium" do
   url "https://github.com/downloads/Syntopia/Fragmentarium/Fragmentarium%20Mac%20Binary%20v#{version}.zip"
   homepage "http://syntopia.github.io/Fragmentarium/"
   name "Fragmentarium"
-  license :gpl
 
   app "Fragmentarium.app"
 end
