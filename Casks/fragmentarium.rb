@@ -1,4 +1,4 @@
-cask :v1 => "fragmentarium" do
+cask "fragmentarium" do
   version "0.9.12b"
   sha256 "562ebee281691e993a42b06409b42d996fce38dcff3b836c9291db0b8907d4df"
 
