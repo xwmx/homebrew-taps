@@ -4,7 +4,7 @@ class Accounts < Formula
   homepage "https://github.com/alphabetum/accounts"
   url "https://github.com/alphabetum/accounts.git",
     :using => :git,
-    :tag => "1.1.3"
+    :tag => "1.2.0"
 
   head "https://github.com/alphabetum/accounts.git"
 
