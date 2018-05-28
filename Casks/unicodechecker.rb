@@ -1,6 +1,6 @@
 cask "unicodechecker" do
   version :latest
-  sha256 "b5eb6668bd9c52c82d5f8aef8b062fafa482b1ae3e02d04ef50375c84bfc9c4a"
+  sha256 "072d89e3b2b894288a7315f76c5ead3c023be24a4510cc90ee5ff7250c352e8b"
 
   url "http://earthlingsoft.net/UnicodeChecker/UnicodeChecker.zip"
   homepage "http://earthlingsoft.net/UnicodeChecker/"
