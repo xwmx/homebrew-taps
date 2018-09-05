@@ -4,7 +4,7 @@ class Airport < Formula
   homepage "https://github.com/alphabetum/airport"
   url "https://github.com/alphabetum/airport.git",
     :using => :git,
-    :tag => "0.4.0"
+    :tag => "0.4.1"
 
   head "https://github.com/alphabetum/airport.git"
 
