@@ -1,12 +1,12 @@
 require "formula"
 
 class Airport < Formula
-  homepage "https://github.com/alphabetum/airport"
-  url "https://github.com/alphabetum/airport.git",
+  homepage "https://github.com/xwmx/airport"
+  url "https://github.com/xwmx/airport.git",
     :using => :git,
     :tag => "0.6.1"
 
-  head "https://github.com/alphabetum/airport.git"
+  head "https://github.com/xwmx/airport.git"
 
   def install
     bin.install "airport"

@@ -1,8 +1,8 @@
 require "formula"
 
 class ShellApp < Formula
-  homepage "https://github.com/alphabetum/shell-app"
-  head "https://github.com/alphabetum/shell-app.git"
+  homepage "https://github.com/xwmx/shell-app"
+  head "https://github.com/xwmx/shell-app.git"
 
   def install
     bin.install "shell-app"

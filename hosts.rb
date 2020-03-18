@@ -1,12 +1,12 @@
 require "formula"
 
 class Hosts < Formula
-  homepage "https://github.com/alphabetum/hosts"
-  url "https://github.com/alphabetum/hosts.git",
+  homepage "https://github.com/xwmx/hosts"
+  url "https://github.com/xwmx/hosts.git",
     :using => :git,
     :tag => "3.2.1"
 
-  head "https://github.com/alphabetum/hosts.git"
+  head "https://github.com/xwmx/hosts.git"
 
   def install
     bin.install "hosts"

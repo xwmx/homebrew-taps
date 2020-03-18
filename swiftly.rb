@@ -1,8 +1,8 @@
 require "formula"
 
 class Swiftly < Formula
-  homepage "https://github.com/alphabetum/swiftly"
-  head "https://github.com/alphabetum/swiftly.git"
+  homepage "https://github.com/xwmx/swiftly"
+  head "https://github.com/xwmx/swiftly.git"
 
   def install
     bin.install "swiftly"

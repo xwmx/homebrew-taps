@@ -1,12 +1,12 @@
 require "formula"
 
 class Notes < Formula
-  homepage "https://github.com/alphabetum/notes"
-  url "https://github.com/alphabetum/notes.git",
+  homepage "https://github.com/xwmx/notes"
+  url "https://github.com/xwmx/notes.git",
     :using => :git,
     :tag => "1.1.1"
 
-  head "https://github.com/alphabetum/notes.git"
+  head "https://github.com/xwmx/notes.git"
 
   def install
     bin.install "notes"

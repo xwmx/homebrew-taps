@@ -1,12 +1,12 @@
 require "formula"
 
 class Vbox < Formula
-  homepage "https://github.com/alphabetum/vbox"
-  url "https://github.com/alphabetum/vbox.git",
+  homepage "https://github.com/xwmx/vbox"
+  url "https://github.com/xwmx/vbox.git",
     :using => :git,
     :tag => "1.2.0"
 
-  head "https://github.com/alphabetum/vbox.git"
+  head "https://github.com/xwmx/vbox.git"
 
   def install
     bin.install "vbox"

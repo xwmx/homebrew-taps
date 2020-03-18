@@ -1,12 +1,12 @@
 require "formula"
 
 class Bindle < Formula
-  homepage "https://github.com/alphabetum/bindle"
-  url "https://github.com/alphabetum/bindle.git",
+  homepage "https://github.com/xwmx/bindle"
+  url "https://github.com/xwmx/bindle.git",
     :using => :git,
     :tag => "6.0.2"
 
-  head "https://github.com/alphabetum/bindle.git"
+  head "https://github.com/xwmx/bindle.git"
 
   def install
     bin.install "bindle"

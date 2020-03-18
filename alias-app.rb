@@ -1,8 +1,8 @@
 require 'formula'
 
 class AliasApp < Formula
-  homepage "https://github.com/alphabetum/alias-app"
-  head "https://github.com/alphabetum/alias-app.git"
+  homepage "https://github.com/xwmx/alias-app"
+  head "https://github.com/xwmx/alias-app.git"
 
   def install
     bin.install 'alias-app'

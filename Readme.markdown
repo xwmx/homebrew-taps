@@ -6,9 +6,9 @@ My [Homebrew](http://brew.sh) formulae.
 
 To clone the formulae into your homebrew installation, use:
 
-    brew tap alphabetum/taps
+    brew tap xwmx/taps
 
 To install just one forumla without doing the initial tap step:
 
-    brew tap install alphabetum/taps/<formula_name>
+    brew tap install xwmx/taps/<formula_name>
 

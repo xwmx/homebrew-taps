@@ -1,12 +1,12 @@
 require "formula"
 
 class Dots < Formula
-  homepage "https://github.com/alphabetum/dots"
-  url "https://github.com/alphabetum/dots.git",
+  homepage "https://github.com/xwmx/dots"
+  url "https://github.com/xwmx/dots.git",
     :using => :git,
     :tag => "4.1.2"
 
-  head "https://github.com/alphabetum/dots.git"
+  head "https://github.com/xwmx/dots.git"
 
   def install
     bin.install "dots"

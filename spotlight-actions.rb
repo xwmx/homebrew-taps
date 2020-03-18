@@ -1,11 +1,11 @@
 require "formula"
 
 class SpotlightActions < Formula
-  homepage "https://github.com/alphabetum/spotlight-actions"
-  url "https://github.com/alphabetum/spotlight-actions.git",
+  homepage "https://github.com/xwmx/spotlight-actions"
+  url "https://github.com/xwmx/spotlight-actions.git",
     :using => :git
 
-  head "https://github.com/alphabetum/spotlight-actions.git"
+  head "https://github.com/xwmx/spotlight-actions.git"
 
   def install
     bin.install "spotlight-actions"
