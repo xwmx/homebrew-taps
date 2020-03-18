@@ -4,7 +4,7 @@ class Hosts < Formula
   homepage "https://github.com/xwmx/hosts"
   url "https://github.com/xwmx/hosts.git",
     :using => :git,
-    :tag => "3.2.1"
+    :tag => "3.2.3"
 
   head "https://github.com/xwmx/hosts.git"
 
