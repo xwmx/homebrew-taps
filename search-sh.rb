@@ -4,7 +4,7 @@ class SearchSh < Formula
   homepage "https://github.com/xwmx/search.sh"
   url "https://github.com/xwmx/search.sh",
     :using => :git,
-    :tag => "0.1.3"
+    :tag => "0.1.4"
 
   head "https://github.com/xwmx/search.sh.git"
 
