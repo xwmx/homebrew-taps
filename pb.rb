@@ -4,7 +4,7 @@ class Pb < Formula
   homepage "https://github.com/xwmx/pb"
   url "https://github.com/xwmx/pb.git",
     :using => :git,
-    :tag => "1.1.2"
+    :tag => "1.1.3"
 
   head "https://github.com/xwmx/pb.git"
 
