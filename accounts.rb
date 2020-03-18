@@ -4,7 +4,7 @@ class Accounts < Formula
   homepage "https://github.com/xwmx/accounts"
   url "https://github.com/xwmx/accounts.git",
     :using => :git,
-    :tag => "1.2.0"
+    :tag => "1.2.1"
 
   head "https://github.com/xwmx/accounts.git"
 
