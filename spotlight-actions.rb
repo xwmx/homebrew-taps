@@ -3,7 +3,8 @@ require "formula"
 class SpotlightActions < Formula
   homepage "https://github.com/xwmx/spotlight-actions"
   url "https://github.com/xwmx/spotlight-actions.git",
-    :using => :git
+    :using => :git,
+    :branch => "master"
 
   head "https://github.com/xwmx/spotlight-actions.git"
 
