@@ -1,6 +1,6 @@
 require "formula"
 
-class Accounts < Formula
+class User < Formula
   homepage "https://github.com/xwmx/user"
   url "https://github.com/xwmx/user.git",
     :using => :git,
