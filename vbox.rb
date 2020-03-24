@@ -4,7 +4,7 @@ class Vbox < Formula
   homepage "https://github.com/xwmx/vbox"
   url "https://github.com/xwmx/vbox.git",
     :using => :git,
-    :tag => "1.2.0"
+    :tag => "1.2.1"
 
   head "https://github.com/xwmx/vbox.git"
 
