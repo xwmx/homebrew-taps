@@ -4,7 +4,7 @@ class Bindle < Formula
   homepage "https://github.com/xwmx/bindle"
   url "https://github.com/xwmx/bindle.git",
     :using => :git,
-    :tag => "7.0.3"
+    :tag => "7.0.4"
 
   head "https://github.com/xwmx/bindle.git"
 
