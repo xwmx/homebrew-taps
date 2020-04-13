@@ -10,8 +10,8 @@ class Hosts < Formula
 
   def install
     bin.install "hosts"
-    zsh_completion.install "hosts-completion.zsh" => "_hosts"
-    bash_completion.install "hosts-completion.bash"
+    zsh_completion.install "etc/hosts-completion.zsh" => "_hosts"
+    bash_completion.install "etc/hosts-completion.bash"
   end
 
   test do
