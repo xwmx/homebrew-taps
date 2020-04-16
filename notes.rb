@@ -4,7 +4,7 @@ class Notes < Formula
   homepage "https://github.com/xwmx/notes"
   url "https://github.com/xwmx/notes.git",
     :using => :git,
-    :tag => "2.12.4"
+    :tag => "2.12.5"
 
   head "https://github.com/xwmx/notes.git"
 
