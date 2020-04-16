@@ -11,7 +11,7 @@ class Notes < Formula
   def install
     bin.install "notes"
     zsh_completion.install "etc/notes-completion.zsh" => "_notes"
-    bash_completion.install "etc/notes-completion.bash"
+    bash_completion.install "etc/notes-completion.bash" => "notes"
   end
 
   test do
