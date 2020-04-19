@@ -4,7 +4,7 @@ class NotesApp < Formula
   homepage "https://github.com/xwmx/notes-app-cli"
   url "https://github.com/xwmx/notes-app-cli.git",
     :using => :git,
-    :tag => "0.0.1-alpha"
+    :tag => "0.0.1y"
 
   head "https://github.com/xwmx/notes-app-cli.git"
 
