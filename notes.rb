@@ -8,6 +8,7 @@ class Notes < Formula
 
   head "https://github.com/xwmx/notes.git"
 
+  depends_on "git"
   depends_on "pandoc"
   depends_on "pygments"
   depends_on "ripgrep"
