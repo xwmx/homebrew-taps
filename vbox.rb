@@ -8,6 +8,8 @@ class Vbox < Formula
 
   head "https://github.com/xwmx/vbox.git"
 
+  depends_on "bash"
+
   def install
     bin.install "vbox"
   end

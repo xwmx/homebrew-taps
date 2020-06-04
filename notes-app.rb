@@ -8,6 +8,8 @@ class NotesApp < Formula
 
   head "https://github.com/xwmx/notes-app-cli.git"
 
+  depends_on "bash"
+
   def install
     bin.install "notes-app"
   end

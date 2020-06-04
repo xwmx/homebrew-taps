@@ -7,6 +7,8 @@ class SpotlightActions < Formula
 
   head "https://github.com/xwmx/spotlight-actions.git"
 
+  depends_on "bash"
+
   def install
     bin.install "spotlight-actions"
   end

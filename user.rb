@@ -8,6 +8,8 @@ class User < Formula
 
   head "https://github.com/xwmx/user.git"
 
+  depends_on "bash"
+
   def install
     bin.install "user"
   end

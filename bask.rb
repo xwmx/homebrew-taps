@@ -8,6 +8,9 @@ class Bask < Formula
 
   head "https://github.com/xwmx/bask.git"
 
+  depends_on "bash"
+  depends_on "bash-completion"
+
   def install
     bin.install "bask"
   end

@@ -8,6 +8,8 @@ class Pb < Formula
 
   head "https://github.com/xwmx/pb.git"
 
+  depends_on "bash"
+
   def install
     bin.install "pb"
   end

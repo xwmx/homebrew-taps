@@ -8,6 +8,9 @@ class Hosts < Formula
 
   head "https://github.com/xwmx/hosts.git"
 
+  depends_on "bash"
+  depends_on "bash-completion"
+
   def install
     bin.install "hosts"
     zsh_completion.install "etc/hosts-completion.zsh" => "_hosts"

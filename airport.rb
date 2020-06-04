@@ -8,6 +8,8 @@ class Airport < Formula
 
   head "https://github.com/xwmx/airport.git"
 
+  depends_on "bash"
+
   def install
     bin.install "airport"
   end

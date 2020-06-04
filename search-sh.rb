@@ -8,6 +8,8 @@ class SearchSh < Formula
 
   head "https://github.com/xwmx/search.sh.git"
 
+  depends_on "bash"
+
   def install
     bin.mkpath
     system "make", "install", "PREFIX=#{prefix}"
