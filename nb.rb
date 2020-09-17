@@ -4,7 +4,7 @@ class Nb < Formula
   homepage "https://github.com/xwmx/nb"
   url "https://github.com/xwmx/nb.git",
     :using => :git,
-    :tag => "4.7.5"
+    :tag => "5.0.1"
 
   head "https://github.com/xwmx/nb.git"
 
@@ -19,7 +19,6 @@ class Nb < Formula
 
   def install
     bin.install "nb"
-    bin.install "bin/notes"
     bin.install "bin/bookmark"
     zsh_completion.install "etc/nb-completion.zsh" => "_nb"
     bash_completion.install "etc/nb-completion.bash" => "nb"
