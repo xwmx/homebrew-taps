@@ -4,7 +4,7 @@ class Bask < Formula
   homepage "https://github.com/xwmx/bask"
   url "https://github.com/xwmx/bask.git",
     :using => :git,
-    :tag => "0.5.0"
+    :tag => "0.5.1"
 
   head "https://github.com/xwmx/bask.git"
 
