@@ -8,6 +8,7 @@ class Nb < Formula
 
   head "https://github.com/xwmx/nb.git"
 
+  depends_on "bat"
   depends_on "bash"
   depends_on "bash-completion"
   depends_on "git"
