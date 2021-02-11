@@ -12,6 +12,7 @@ class Nb < Formula
   depends_on "bash"
   depends_on "bash-completion"
   depends_on "git"
+  depends_on "nmap"
   depends_on "pandoc"
   depends_on "pygments"
   depends_on "ripgrep"
