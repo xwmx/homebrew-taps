@@ -3,8 +3,8 @@ require "formula"
 class Nb < Formula
   homepage "https://github.com/xwmx/nb"
   url "https://github.com/xwmx/nb.git",
-    :using  => :git,
-    :tag    => "6.4.0"
+      using:  :git,
+      tag:    "6.4.0"
 
   head "https://github.com/xwmx/nb.git"
 
@@ -20,8 +20,8 @@ class Nb < Formula
   depends_on "w3m"
 
   def install
-    bin.install "nb"
-    bin.install "bin/bookmark"
+    bin.install             "nb"
+    bin.install             "bin/bookmark"
     zsh_completion.install  "etc/nb-completion.zsh"   => "_nb"
     bash_completion.install "etc/nb-completion.bash"  => "nb"
   end
