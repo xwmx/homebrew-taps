@@ -23,6 +23,7 @@ class Nb < Formula
     bin.install             "nb"
     bin.install             "bin/bookmark"
     zsh_completion.install  "etc/nb-completion.zsh"   => "_nb"
+    # fish_completion.install "etc/nb-completion.fish"  => "nb.fish"
     bash_completion.install "etc/nb-completion.bash"  => "nb"
   end
 
