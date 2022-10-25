@@ -10,7 +10,7 @@ class Nb < Formula
 
   depends_on "bat"
   depends_on "bash"
-  depends_on "bash-completion"
+  depends_on "bash-completion@2"
   depends_on "git"
   depends_on "nmap"
   depends_on "pandoc"
