@@ -4,7 +4,7 @@ class Nb < Formula
   homepage "https://github.com/xwmx/nb"
   url "https://github.com/xwmx/nb.git",
       using:  :git,
-      tag:    "7.10.1"
+      tag:    "7.10.2"
 
   head "https://github.com/xwmx/nb.git"
 
