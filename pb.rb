@@ -3,8 +3,8 @@ require "formula"
 class Pb < Formula
   homepage "https://github.com/xwmx/pb"
   url "https://github.com/xwmx/pb.git",
-    :using => :git,
-    :tag => "1.3.1"
+    :using  => :git,
+    :tag    => "1.3.1"
 
   head "https://github.com/xwmx/pb.git"
 
