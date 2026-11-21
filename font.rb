@@ -9,7 +9,7 @@ class Font < Formula
   head "https://github.com/xwmx/font.git"
 
   depends_on "bash"
-  depends_on "bash-completion"
+  depends_on "bash-completion@2"
 
   def install
     bin.install "font"
