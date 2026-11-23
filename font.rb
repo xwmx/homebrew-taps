@@ -4,7 +4,7 @@ class Font < Formula
   homepage "https://github.com/xwmx/font"
   url "https://github.com/xwmx/font.git",
     :using  => :git,
-    :tag    => "0.5.0"
+    :tag    => "0.6.0"
 
   head "https://github.com/xwmx/font.git"
 
